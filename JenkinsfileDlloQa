@@ -1,0 +1,23 @@
+@Library('pipeline_templates') _
+
+myDeliveryPipeline {
+    artifactName = 'ms-springboot-*.jar'
+    artifactPath = 'target/'
+    artifactoryPath = 'repo-test/ms-springboot'
+
+    jUnitTestReport = ''
+    htmlUnitTestReport = ''
+
+    jIntegrationTestReport = ''
+    htmlIntegrationTestReport = ''
+
+    postmanCollectionUrl = ''
+    jPostmanTestReport = ''
+    htmlPostmanTestReport = ''
+
+    gitE2eUrl = ''
+    je2eTestReport = ''
+    htmle2eTestReport = ''
+
+    supportEmail = 'cacevedod@devco.com.co'
+}

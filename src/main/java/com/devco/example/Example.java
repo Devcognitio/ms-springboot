@@ -1,4 +1,4 @@
-package com.devco.sbexample;
+package com.devco.example;
 
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
