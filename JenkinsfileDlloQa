@@ -5,11 +5,9 @@ icDcMonolithicMavenTemplate {
     artifactPath = 'target/'
     artifactoryPath = 'repo-test/ms-springboot'
 
-    jUnitTestReport = ''
-    htmlUnitTestReport = ''
+    jUnitTestReport = 'target/surefire-reports/TEST-*.xml'
 
-    jIntegrationTestReport = ''
-    htmlIntegrationTestReport = ''
+    jIntegrationTestReport = 'target/failsafe-reports/TEST-*.xml'
 
     postmanCollectionUrl = ''
     jPostmanTestReport = ''
