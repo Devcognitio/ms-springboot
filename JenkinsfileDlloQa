@@ -1,8 +1,8 @@
 @Library('pipeline_templates') _
 
 icDcMonolithicMavenTemplate {
-    artifactName = 'ms-springboot-*.jar'
     artifactPath = 'target/'
+    artifactoryRepoName = 'repo-test'
     artifactoryPath = 'repo-test/ms-springboot'
 
     jUnitTestReport = 'target/surefire-reports/TEST-*.xml'
