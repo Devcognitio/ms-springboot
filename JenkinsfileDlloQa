@@ -8,9 +8,7 @@ icDcMonolithicMavenTemplate {
 
     jIntegrationTestReport = 'target/failsafe-reports/TEST-*.xml'
 
-    postmanCollectionUrl = ''
-    jPostmanTestReport = ''
-    htmlPostmanTestReport = ''
+    postmanCollectionUrl = 'https://www.getpostman.com/collections/109883d7237bce4cb028'
 
     gitE2eUrl = ''
     je2eTestReport = ''
