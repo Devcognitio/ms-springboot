@@ -10,9 +10,9 @@ icDcMonolithicMavenTemplate {
 
     postmanCollectionUrl = 'https://www.getpostman.com/collections/109883d7237bce4cb028'
 
-    gitE2eUrl = ''
-    je2eTestReport = ''
-    htmle2eTestReport = ''
+    gitE2eUrl = 'https://github.com/Devcognitio/serenity-cucumber-gradle-screenplay.git'
+    je2eTestReport = 'target/site/serenity/*.xml'
+    htmle2eTestReport = 'target/site/serenity'
 
     supportEmail = 'cacevedod@devco.com.co'
 }
