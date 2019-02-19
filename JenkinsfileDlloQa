@@ -6,6 +6,9 @@ icDcMonolithicMavenTemplate {
 
     jUnitTestReport = 'target/surefire-reports/TEST-*.xml'
 
+    smokeTestUrlDllo='http://appserver-desarrollo-01.sura.pe/'
+    smokeTestUrlQa=''
+
     jIntegrationTestReport = 'target/failsafe-reports/TEST-*.xml'
 
     postmanCollectionUrl = 'https://www.getpostman.com/collections/109883d7237bce4cb028'
