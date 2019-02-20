@@ -9,6 +9,12 @@ icDcMonolithicMavenTemplate {
     smokeTestUrlDllo='http://appserver-desarrollo-01.sura.pe/ms-springboot-1.0/'
     smokeTestUrlQa=''
 
+    executeIntegrationTestDllo=true
+    executeE2eTestDllo=false
+
+    executeIntegrationTestQa=false
+    executeE2eTestQa=false
+
     jIntegrationTestReport = 'target/failsafe-reports/TEST-*.xml'
 
     postmanCollectionUrl = 'https://www.getpostman.com/collections/109883d7237bce4cb028'
