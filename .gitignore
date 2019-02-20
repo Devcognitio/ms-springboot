@@ -26,7 +26,7 @@ hs_err_pid*
 target/
 *.iml
 .gradle/
-
 newman/
 node_modules/
 package-lock.json
+e2e/
