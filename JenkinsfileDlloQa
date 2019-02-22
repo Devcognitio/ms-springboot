@@ -9,7 +9,7 @@ icDcMonolithicMavenTemplate {
     smokeTestUrlDllo='http://appserver-desarrollo-01.sura.pe/ms-springboot-1.0/'
     smokeTestUrlQa=''
 
-    executeIntegrationTestDllo=true
+    executeIntegrationTestDllo=false
     executeE2eTestDllo=false
 
     executeIntegrationTestQa=false
